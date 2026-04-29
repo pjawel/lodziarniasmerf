@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  
+  --color-smerf-50: #f0f9ff;
+  --color-smerf-100: #e0f2fe;
+  --color-smerf-200: #bae6fd;
+  --color-smerf-300: #7dd3fc;
+  --color-smerf-400: #38bdf8;
+  --color-smerf-500: #0ea5e9;
+  --color-smerf-600: #0284c7;
+  
+  --color-strawberry: #ffebf0;
+  --color-strawberry-text: #f43f5e;
+  --color-vanilla: #fdfaf3;
+  --color-popcorn: #fef3c7;
+}
+
+@layer base {
+  body {
+    @apply bg-vanilla text-slate-800 antialiased selection:bg-smerf-200;
+  }
+}
+
+.floating {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(3deg); }
+}
+
+.bg-bubble-pattern {
+  background-image: radial-gradient(circle at 2px 2px, var(--color-smerf-200) 1px, transparent 0);
+  background-size: 40px 40px;
+}
