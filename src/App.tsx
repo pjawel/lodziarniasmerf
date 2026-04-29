@@ -109,13 +109,13 @@ export default function App() {
   const [hoveredProduct, setHoveredProduct] = useState<number | null>(null);
 
   return (
-    <div className="min-h-screen font-sans selection:bg-strawberry selection:text-strawberry-text">
+    <div className="min-h-screen font-sans selection:bg-strawberry selection:text-strawberry-text overflow-x-hidden">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 px-4 py-6">
+      <nav className="fixed top-0 w-full z-50 px-2 sm:px-4 py-4 sm:py-6">
         <motion.div 
           initial={{ y: -100 }}
           animate={{ y: 0 }}
-          className="max-w-5xl mx-auto flex items-center justify-between bg-white/70 backdrop-blur-xl border border-white/40 p-2 px-4 sm:px-8 rounded-full shadow-2xl shadow-smerf-100/50"
+          className="max-w-5xl mx-auto flex items-center justify-between bg-white/70 backdrop-blur-xl border border-white/40 p-2 px-3 sm:px-8 rounded-full shadow-2xl shadow-smerf-100/50"
         >
           <div className="flex items-center">
             <span className="font-display font-extrabold text-lg sm:text-2xl text-smerf-600 whitespace-nowrap">
@@ -165,7 +165,7 @@ export default function App() {
               Smak dzieciństwa od 1990
             </motion.div>
             
-            <h1 className="font-display text-6xl md:text-9xl font-black text-slate-900 mb-8 leading-[0.9] tracking-tight">
+            <h1 className="font-display text-5xl sm:text-6xl md:text-9xl font-black text-slate-900 mb-8 leading-[0.9] tracking-tight">
               Najlepsze <br />
               <span className="text-smerf-500 drop-shadow-[0_4px_0_theme(colors.smerf-200)]">Chwile</span> u nas!
             </h1>
@@ -224,7 +224,7 @@ export default function App() {
                 <div className="h-2 w-12 bg-smerf-500 rounded-full" />
                 <span className="font-black text-smerf-500 uppercase tracking-widest text-sm">Nasza Historia</span>
               </div>
-              <h2 className="font-display text-5xl md:text-6xl font-bold text-slate-900 mb-8 leading-tight">
+              <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-slate-900 mb-8 leading-tight">
                 Z miłości do tradycji od <span className="text-smerf-500">1990</span> roku
               </h2>
               <div className="space-y-6 text-lg text-slate-600 font-medium leading-relaxed">
@@ -259,7 +259,7 @@ export default function App() {
               initial={{ scale: 0.9, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
               viewport={{ once: true }}
-              className="font-display text-6xl md:text-8xl font-black text-slate-900 mb-6 drop-shadow-sm"
+              className="font-display text-4xl sm:text-6xl md:text-8xl font-black text-slate-900 mb-6 drop-shadow-sm"
             >
               Nasze <span className="text-smerf-500">HICIORY</span>
             </motion.h2>
@@ -331,7 +331,7 @@ export default function App() {
          <WavyDivider top color="fill-smerf-50" />
          
          <div className="max-w-7xl mx-auto px-4">
-            <div className="relative bg-smerf-600 rounded-[5rem] p-12 md:p-24 overflow-hidden shadow-4xl shadow-smerf-300">
+            <div className="relative bg-smerf-600 rounded-[2.5rem] sm:rounded-[5rem] p-8 sm:p-12 md:p-24 overflow-hidden shadow-4xl shadow-smerf-300">
                <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_20%_20%,_white_20%,_transparent_0)] bg-[size:30px_30px]" />
                
                <div className="relative z-10 grid grid-cols-1 xl:grid-cols-2 gap-16 items-center">
@@ -339,7 +339,7 @@ export default function App() {
                      <motion.h2 
                        initial={{ y: 20, opacity: 0 }}
                        whileInView={{ y: 0, opacity: 1 }}
-                       className="font-display text-5xl md:text-7xl font-black mb-8 transition-transform"
+                       className="font-display text-4xl sm:text-5xl md:text-7xl font-black mb-8 transition-transform"
                      >
                        Wpadnij do nas <br />po <span className="italic underline decoration-vanilla decoration-4 underline-offset-8">uśmiech!</span>
                      </motion.h2>
@@ -396,7 +396,7 @@ export default function App() {
                <img src={LOGO_URL} className="h-10 w-10 rounded-full" alt="Mini" referrerPolicy="no-referrer" />
                <span className="font-display font-bold text-2xl text-smerf-600">Smerf</span>
             </div>
-            <div className="flex gap-10 text-sm font-black text-slate-400 uppercase tracking-[0.2em]">
+            <div className="flex gap-4 sm:gap-10 text-xs sm:text-sm font-black text-slate-400 uppercase tracking-[0.2em]">
                <a href="#" className="hover:text-smerf-500 transition-colors">Facebook</a>
                <a href="#" className="hover:text-smerf-500 transition-colors">Instagram</a>
                <a href="#" className="hover:text-smerf-500 transition-colors">Opinie</a>

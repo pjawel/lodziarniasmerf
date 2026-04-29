@@ -21,7 +21,7 @@
 
 @layer base {
   body {
-    @apply bg-vanilla text-slate-800 antialiased selection:bg-smerf-200;
+    @apply bg-vanilla text-slate-800 antialiased selection:bg-smerf-200 overflow-x-hidden;
   }
 }
 
