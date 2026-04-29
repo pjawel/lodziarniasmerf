@@ -56,21 +56,21 @@ const PRODUCTS = [
   {
     id: 9,
     title: "Shake smerfowe i kawa latte",
-    description: "wyjątkowe shake'i o smaku smerfowym oraz aromatycznej kawy latte.",
+    description: "Wyjątkowe shake'i o smaku smerfowym oraz aromatycznej kawy latte.",
     image: "https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/481909622_1109411270986205_3639633130943323066_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=wHixnSHnMWMQ7kNvwFRq1qI&_nc_oc=Adp7OJwT5XP2_j23UKEIbjIOAp1axHYtDgK_7f6viUVN1APGLHZhm_y0HCpyDYSY7sY&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=R4XtGlc-MAjsQFRru87RqQ&_nc_ss=7b2a8&oh=00_Af2ItCQKta7Ng9KuEqB4zQ1HAnX_hnNspOnieVQRmnhmbA&oe=69F7B972",
     color: "bg-blue-50"
   },
   {
     id: 10,
     title: "Bananowe lody amerykańskie",
-    description: "puszyste lody amerykańskie o smaku dojrzałych bananów.",
+    description: "Puszyste lody amerykańskie o smaku dojrzałych bananów.",
     image: "https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/474707837_1078472694080063_2584565366467235950_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7b2446&_nc_ohc=npNmM4elpzwQ7kNvwE0NbM1&_nc_oc=AdpSuYgC51-JmowXP-PnSCheU6Ce2R6FtbWYnzoKXWpEQQP5-YcQmPL4UsGdjYmnhq8&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=ZuV9kJsYK9yNxyV41GAK3A&_nc_ss=7b2a8&oh=00_Af1bWeIOLAZRWJG5K3G6c90YGliiO238rlq5U0gG-yxAeA&oe=69F7BE96",
     color: "bg-yellow-50"
   },
   {
     id: 11,
     title: "Slushy",
-    description: "orzeźwiające lodowe napoje idealne na upalne dni.",
+    description: "Orzeźwiające lodowe napoje idealne na upalne dni.",
     image: "https://scontent-waw2-2.xx.fbcdn.net/v/t1.6435-9/201573500_245671974026810_455612926425669255_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7b2446&_nc_ohc=aPueuY1Uj7sQ7kNvwFQWN5R&_nc_oc=AdoMlyK1tgwMjOQFC01H7K_2Ewcm3axkPzKr91dV6nU9syeReZHn7U1Iv9XpXfeuDwY&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=dEM1BZ307CTmQwRKYr25eA&_nc_ss=7b2a8&oh=00_Af3XeUMmjpi4dpUqOh0m8Cgmqmjws4XNqGNgHrXqcKjp-g&oe=6A1979B2",
     color: "bg-red-50"
   }
@@ -115,10 +115,10 @@ export default function App() {
         <motion.div 
           initial={{ y: -100 }}
           animate={{ y: 0 }}
-          className="max-w-5xl mx-auto flex items-center justify-between bg-white/70 backdrop-blur-xl border border-white/40 p-2 px-8 rounded-full shadow-2xl shadow-smerf-100/50"
+          className="max-w-5xl mx-auto flex items-center justify-between bg-white/70 backdrop-blur-xl border border-white/40 p-2 px-4 sm:px-8 rounded-full shadow-2xl shadow-smerf-100/50"
         >
-          <div className="flex items-center gap-4">
-            <span className="font-display font-extrabold text-2xl text-smerf-600">
+          <div className="flex items-center">
+            <span className="font-display font-extrabold text-lg sm:text-2xl text-smerf-600 whitespace-nowrap">
               Lodziarnia Smerf
             </span>
           </div>
@@ -134,7 +134,7 @@ export default function App() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             href="tel:728816198"
-            className="bg-smerf-500 text-white px-6 py-3 rounded-full font-bold text-sm flex items-center gap-2 shadow-lg shadow-smerf-200"
+            className="bg-smerf-500 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full font-bold text-xs sm:text-sm flex items-center gap-2 shadow-lg shadow-smerf-200 whitespace-nowrap"
           >
             <Phone size={16} />
             728 816 198
@@ -352,7 +352,7 @@ export default function App() {
                           whileHover={{ scale: 1.1 }}
                           whileTap={{ scale: 0.9 }}
                           href="tel:728816198"
-                          className="bg-white text-smerf-600 px-10 py-5 rounded-[2rem] font-black text-xl flex items-center gap-4 shadow-2xl"
+                          className="bg-white text-smerf-600 px-10 py-5 rounded-[2rem] font-black text-xl flex items-center gap-4 shadow-2xl whitespace-nowrap"
                         >
                           <Phone /> 728 816 198
                         </motion.a>
