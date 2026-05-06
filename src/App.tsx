@@ -12,7 +12,7 @@ const PRODUCTS = [
     id: 1,
     title: "Sernik z pomarańczą",
     description: "Słodki sernik z cytrusową nutą. Nasza najnowsza duma!",
-    image: "https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/681268562_1438550791405583_1678985202632018766_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=104&ccb=1-7&_nc_sid=7b2446&_nc_ohc=w6hsanzWh4UQ7kNvwFJz3fy&_nc_oc=AdrqePDvLOM7HTEAd9IOcmirr1RBrWTVWiFM5xPaYpm7iivM0fQ0t6_q6VSyIQluhx4&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=5_Z0f55pmZVBY7gus5_aqA&_nc_ss=7b2a8&oh=00_Af1F9KfwJtEx9Jjdvxt8WUinWlFvcCpjB5i63q_WjIk7BQ&oe=69F7EAB8",
+    image: "https://iili.io/BZYKQEJ.md.jpg",
     tag: "NOWOŚĆ",
     color: "bg-orange-100"
   },
@@ -20,7 +20,7 @@ const PRODUCTS = [
     id: 2,
     title: "Mascarpone z karmelem",
     description: "Kremowe mascarpone, popcorn i słodki karmel.",
-    image: "https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/679915430_1438551284738867_1006557857187911240_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=7b2446&_nc_ohc=p_Cd8HeyUjAQ7kNvwG076wl&_nc_oc=AdpJ1G8Q1hMy9PrwWxsruGpEW7Zs_ZlFrj0Z7wJ05fRdv592CIIdJD3raH7_rXKVJ3s&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=RMLoZ9zxZuT9pAG666goVg&_nc_ss=7b2a8&oh=00_Af2YFYdqt7h6LaQwr-Igqts4ivXqrmHe0aU8ZwLKXk5R4Q&oe=69F7BF79",
+    image: "https://iili.io/BZYfF4f.md.jpg",
     tag: "HIT",
     color: "bg-yellow-100"
   },
@@ -28,14 +28,14 @@ const PRODUCTS = [
     id: 3,
     title: "Amerykany na śmietanie",
     description: "Klasyczne amerykany z zastygałą polewą. Niebo w gębie!",
-    image: "https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/492137540_1147290980531567_69291499562627642_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7b2446&_nc_ohc=vx8SlXpz8Q0Q7kNvwHcwIxv&_nc_oc=AdrpeMBcooIc70g7MZQOnkb_doupshB2QeMg5bnHRDt2vtv9etFwFY8i9bcyg6InAis&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=fktilrAhX_FK79foYWNXPg&_nc_ss=7b2a8&oh=00_Af3a_EX07vXTgQP54wRvsZq5A_ttTmgFaF1xt5K2lzzY3g&oe=69F7E26D",
+    image: "https://iili.io/BZYf3EG.md.jpg",
     color: "bg-blue-100"
   },
   {
     id: 5,
     title: "Włoskie - Klasyka",
     description: "Lody włoskie kręcone tak samo od lat. Prawdziwa tradycja.",
-    image: "https://scontent-waw2-2.xx.fbcdn.net/v/t39.30808-6/488966587_1133353311925334_2171387565485834979_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7b2446&_nc_ohc=B8g4Eh1b9DwQ7kNvwF27jWB&_nc_oc=AdqjDB1K9ewmWF3zNvIrFC8-1O7PrpOvGgM3wql2H-OqdMKzKa5k2ICK87-NgJ6jDr0&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=rkN1YZckauLP-Gbrdv-E5A&_nc_ss=7b2a8&oh=00_Af0gqNFpDXRVOHDvgudzD3U1VyucxADBJX9WOH7dfd1Srw&oe=69F7EA90",
+    image: "https://iili.io/BZYfxj9.md.jpg",
     tag: "POLECAMY",
     color: "bg-cream-100"
   },
@@ -43,28 +43,28 @@ const PRODUCTS = [
     id: 7,
     title: "Gofry bąbelkowe",
     description: "Mega puszyste gofry z Twoimi ulubionymi dodatkami.",
-    image: "https://scontent-waw2-2.xx.fbcdn.net/v/t39.30808-6/485648408_1121276499799682_4165722475536760541_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7b2446&_nc_ohc=4VbolXfXYD8Q7kNvwEMLiC9&_nc_oc=AdrKY0PZYJFH6136v5qNBITOVVfPKVgZQDHRWhL0Bsjh5jVX978Xcm61gLB1fITnGl0&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=6i4gJj9u5yatSWb0SqjADg&_nc_ss=7b2a8&oh=00_Af07aPRcg-eJmYtMRCzm3g_1Lz25p0-3cSqOZ6T2Rk2dnA&oe=69F7D37D",
+    image: "https://iili.io/BZYfqYl.md.jpg",
     color: "bg-pink-100"
   },
   {
     id: 8,
     title: "Ciepłe nachosy",
     description: "Idealna przekąska na ciepło z pysznym sosem serowym.",
-    image: "https://scontent-waw2-2.xx.fbcdn.net/v/t39.30808-6/486169737_1121284633132202_8847215836616356922_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7b2446&_nc_ohc=oACxYItvm5cQ7kNvwGCIMFU&_nc_oc=AdrTd-3IbnWrk02kJlsMv0qXQET-Rw9drtEyD9OtMd6VXcbm2HC8SguZm92cWl3Exho&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=1vbsJoOlZx3Ra95bEzqyUQ&_nc_ss=7b2a8&oh=00_Af1AIyo63NfGA0NM7qfM2iXoNiK2q4psngjyWN_vARsKJg&oe=69F7C118",
+    image: "https://iili.io/BZYfYvV.md.jpg",
     color: "bg-orange-50"
   },
   {
     id: 9,
     title: "Shake smerfowe i kawa latte",
     description: "Wyjątkowe shake'i o smaku smerfowym oraz aromatycznej kawy latte.",
-    image: "https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/481909622_1109411270986205_3639633130943323066_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=wHixnSHnMWMQ7kNvwFRq1qI&_nc_oc=Adp7OJwT5XP2_j23UKEIbjIOAp1axHYtDgK_7f6viUVN1APGLHZhm_y0HCpyDYSY7sY&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=R4XtGlc-MAjsQFRru87RqQ&_nc_ss=7b2a8&oh=00_Af2ItCQKta7Ng9KuEqB4zQ1HAnX_hnNspOnieVQRmnhmbA&oe=69F7B972",
+    image: "https://iili.io/BZYfA4j.md.jpg",
     color: "bg-blue-50"
   },
   {
     id: 10,
     title: "Bananowe lody amerykańskie",
     description: "Puszyste lody amerykańskie o smaku dojrzałych bananów.",
-    image: "https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/474707837_1078472694080063_2584565366467235950_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7b2446&_nc_ohc=npNmM4elpzwQ7kNvwE0NbM1&_nc_oc=AdpSuYgC51-JmowXP-PnSCheU6Ce2R6FtbWYnzoKXWpEQQP5-YcQmPL4UsGdjYmnhq8&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=ZuV9kJsYK9yNxyV41GAK3A&_nc_ss=7b2a8&oh=00_Af1bWeIOLAZRWJG5K3G6c90YGliiO238rlq5U0gG-yxAeA&oe=69F7BE96",
+    image: "https://iili.io/BZYfoT7.md.jpg",
     color: "bg-yellow-50"
   },
   {
@@ -205,7 +205,7 @@ export default function App() {
             >
               <div className="relative z-10 aspect-square rounded-[4rem] overflow-hidden shadow-3xl rotate-3 bg-smerf-100">
                 <img 
-                  src="https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/674359970_1433674331893229_8552471396811528371_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=RBhmVwpUQZ8Q7kNvwEhrI_R&_nc_oc=Adp9h2btpD_icufgv4sYfc74ZQuBDAGF48ue5J3He84G75LsYrEsWUg97TVjYOW3b1k&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=oIAyC4tvDRDWxGCwfzZGiA&_nc_ss=7b2a8&oh=00_Af389v_IItrHvjFQZ8NvTrbOjGKAAzYWC2QGoDZ0F8rjVg&oe=69F7C9D4" 
+                  src="https://iili.io/BZYKNLu.md.jpg" 
                   alt="Historia lodziarni" 
                   className="w-full h-full object-cover scale-110 hover:scale-125 transition-transform duration-700"
                   referrerPolicy="no-referrer"
